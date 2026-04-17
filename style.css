@@ -302,3 +302,61 @@ body {
 	font-weight: 700;
 	font-size: 45px;
 }
+
+
+
+/* --- TABLET VERSION --- */
+@media (min-width: 481px) and (max-width: 1024px) {
+    .internal-wrapper {
+        width: 90%;
+    }
+
+    .product-title {
+        font-size: 45px;
+    }
+}
+/* --- COMPLETE MOBILE VERSION --- */
+@media (max-width: 480px) {
+    /* 1. Reset the width so it doesn't overflow */
+    .internal-wrapper {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .header-wrapper ul {
+        flex-direction: column; /* Stacks the menu links */
+        text-align: center;
+    }
+    .header-wrapper .header-links-wrapper ul li {
+        display: block; 
+        padding: 10px 0;
+        width: 100%;
+        border-bottom: 1px solid #333; /* Adds a clean separator */
+    }
+    .fourth-heghlight-wrapper,
+    .fifth-heghlight-wrapper,
+    .sixth-heghlight-wrapper,
+    .footer-links-wrapper,
+    .copyright-wrapper {
+       flex-direction: column;
+    }
+    .left-side-wrapper, 
+    .right-side-wrapper {
+        width: 100%;
+        margin: 5px 0;
+        height: 350px;
+        background-size: contain;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+    }
+
+    
+    .product-title, .title-wraper {
+        font-size: 30px;
+    }
+    .product-title-small {
+        font-size: 24px;
+    }
+    .brief-description, .description-wrapper {
+        font-size: 1.1em;
+    }
+}
