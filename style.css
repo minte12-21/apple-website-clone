@@ -765,6 +765,10 @@ body {
     color: #1d1d1f !important;
     font-weight: 600;
 }
+.fifth-heghlight-wrapper .right-side-wrapper {
+    background-size: contain;
+    background-position: center bottom;
+}
     .fourth-heghlight-wrapper,
     .fifth-heghlight-wrapper,
     .sixth-heghlight-wrapper,
