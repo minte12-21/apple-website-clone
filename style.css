@@ -769,6 +769,10 @@ body {
     background-size: contain;
     background-position: center bottom;
 }
+.watch-more-wrapper{
+	padding-top: 270px;
+}
+
     .fourth-heghlight-wrapper,
     .fifth-heghlight-wrapper,
     .sixth-heghlight-wrapper,
