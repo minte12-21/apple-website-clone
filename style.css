@@ -325,7 +325,7 @@ body {
 }
 
 /* --- COMPLETE MOBILE VERSION --- */
-@media (max-width: 480px) {
+@media (min-width: 330px) and (max-width: 480px) {
     /* Reset the width so it doesn't overflow */
     .internal-wrapper {
         width: 100%;
