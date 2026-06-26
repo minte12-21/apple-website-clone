@@ -420,6 +420,10 @@ body {
         flex-direction: column;
         justify-content: center;
     }
+    .yene {
+
+        margin-bottom: 250px;
+    }
 
     .title-wraper {
         font-size: 26px;
@@ -439,6 +443,7 @@ body {
     }
 
     /* TWO-COLUMN TO SINGLE COLUMN */
+    
     .fourth-heghlight-wrapper,
     .fifth-heghlight-wrapper,
     .sixth-heghlight-wrapper,
